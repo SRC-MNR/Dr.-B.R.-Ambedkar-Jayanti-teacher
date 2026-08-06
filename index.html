@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+<meta charset="UTF-8">
+<title>ಡಾ. ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಜಯಂತಿ ಭಾಷಣಗಳು</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500;600;700;800&family=Noto+Sans+Kannada:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#201a30;
+    --sub:#483c65;
+    --accent:#4a148c;
+    --accent2:#f57f17;
+    --paper:#fffdf8;
+    --border:#4a148c;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  body{
+    margin:0;
+    padding:30px 16px;
+    background:#f4f1f8;
+    font-family:'Noto Sans Kannada','Baloo Tamma 2',sans-serif;
+    color:var(--ink);
+  }
+  .toolbar{
+    max-width:900px;
+    margin:0 auto 24px auto;
+    display:flex;
+    justify-content:center;
+  }
+  .print-btn{
+    background:var(--accent);
+    color:#fff;
+    border:none;
+    padding:12px 26px;
+    border-radius:10px;
+    font-family:inherit;
+    font-weight:700;
+    font-size:16px;
+    cursor:pointer;
+    box-shadow:0 6px 14px rgba(74,20,140,0.25);
+    display:flex;
+    align-items:center;
+    gap:8px;
+    transition:transform .2s ease;
+  }
+  .print-btn:hover{transform:translateY(-2px);}
+
+  .page-title{
+    max-width:900px;
+    margin:0 auto 30px auto;
+    text-align:center;
+  }
+  .page-title h1{
+    font-family:'Baloo Tamma 2',sans-serif;
+    font-size:32px;
+    font-weight:800;
+    color:var(--accent);
+    margin:0 0 6px 0;
+  }
+  .page-title p{
+    font-size:15px;
+    color:var(--sub);
+    margin:0;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    font-weight:600;
+  }
+
+  .speech-card{
+    max-width:900px;
+    margin:0 auto 40px auto;
+    background:var(--paper);
+    border:3px solid var(--border);
+    border-radius:22px;
+    padding:40px 44px;
+    position:relative;
+    box-shadow:0 12px 30px rgba(74,20,140,0.12);
+    page-break-inside:avoid;
+    page-break-after:always;
+  }
+  .speech-card::before{
+    content:"";
+    position:absolute;
+    inset:10px;
+    border:1px solid var(--accent2);
+    border-radius:14px;
+    pointer-events:none;
+  }
+  .speech-number{
+    position:absolute;
+    top:-22px;
+    left:36px;
+    background:var(--accent2);
+    color:#fff;
+    font-weight:800;
+    font-size:15px;
+    padding:6px 18px;
+    border-radius:20px;
+    border:2px solid var(--accent);
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+  }
+  .speech-title{
+    font-family:'Baloo Tamma 2',sans-serif;
+    font-size:24px;
+    font-weight:700;
+    color:var(--accent);
+    text-align:center;
+    margin:10px 0 22px 0;
+    padding-bottom:16px;
+    border-bottom:2px dashed var(--accent2);
+    page-break-after: avoid;
+  }
+  .speech-body p{
+    font-size:18px;
+    line-height:1.95;
+    color:var(--ink);
+    margin:0 0 18px 0;
+    text-align:justify;
+  }
+  .speech-body p:first-child{
+    font-weight:600;
+    color:var(--accent);
+  }
+  .speech-close{
+    text-align:center;
+    font-family:'Baloo Tamma 2',sans-serif;
+    font-weight:800;
+    font-size:20px;
+    color:var(--accent);
+    margin-top:24px;
+    padding-top:16px;
+    border-top:2px dashed var(--accent2);
+  }
+  .footer-note{
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+    color:var(--sub);
+    font-size:13px;
+    padding-bottom:20px;
+  }
+
+  @media print{
+    body{background:#fff;padding:0;}
+    .toolbar{display:none;}
+    .page-title{margin-top:20px;}
+    .speech-card{
+      box-shadow:none;
+      margin:0 auto 0 auto;
+      border-width:2.5px;
+    }
+    .footer-note{display:none;}
+  }
+  @page{
+    size:A4;
+    margin:14mm;
+  }
+</style>
+</head>
+<body>
+
+  <div class="toolbar">
+    <button class="print-btn" onclick="window.print()">🖨️ ಪ್ರಿಂಟ್ ತೆಗೆದುಕೊಳ್ಳಿ</button>
+  </div>
+
+  <div class="page-title">
+    <h1>⚖️ ಡಾ. ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಜಯಂತಿ ಭಾಷಣಗಳು</h1>
+    <p>ಏಪ್ರಿಲ್ 14 - ಶಿಕ್ಷಕರಿಗಾಗಿ ವಿಶೇಷ ಸಂಗ್ರಹ</p>
+  </div>
+
+  <div class="speech-card">
+    <div class="speech-number">ಭಾಷಣ 1</div>
+    <div class="speech-title">ಡಾ. ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಅವರ ಜೀವನ, ಹೋರಾಟ ಮತ್ತು ಸಾಧನೆ</div>
+    <div class="speech-body">
+      <p>ಗೌರವಾನ್ವಿತ ಮುಖ್ಯೋಪಾಧ್ಯಾಯರೇ, ನನ್ನೆಲ್ಲಾ ಸಹೋದ್ಯೋಗಿ ಮಿತ್ರರೇ ಮತ್ತು ನನ್ನ ಪ್ರೀತಿಯ ವಿದ್ಯಾರ್ಥಿ ವಿದ್ಯಾರ್ಥಿನಿಯರೇ, ಎಲ್ಲರಿಗೂ ಡಾ. ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಜಯಂತಿಯ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು.</p>
+      <p>ಪ್ರತಿವರ್ಷ ಏಪ್ರಿಲ್ 14 ರಂದು ಭಾರತದ ಸಂವಿಧಾನ ಶಿಲ್ಪಿ, ಮಹಾನ್ ಮಾನವತಾವಾದಿ, ಭಾರತರತ್ನ ಡಾ. ಬಾಬಾಸಾಹೇಬ್ ಅಂಬೇಡ್ಕರ್ ಅವರ ಜನ್ಮದಿನವನ್ನು ನಾವೆಲ್ಲರೂ ಅತ್ಯಂತ ಹೆಮ್ಮೆಯಿಂದ ಆಚರಿಸುತ್ತೇವೆ. ಅಪಾರ ಸಾಮಾಜಿಕ ಅಡೆತಡೆಗಳು, ಅವಮಾನಗಳನ್ನು ಎದುರಿಸಿ, ವಿಶ್ವದ ಅತ್ಯುತ್ತಮ ವಿದ್ಯಾಸಂಸ್ಥೆಗಳಿಂದ ಉನ್ನತ ಪದವಿಗಳನ್ನು ಪಡೆದ ಅಂಬೇಡ್ಕರ್ ಅವರು ಅಪ್ರತಿಮ ವಿದ್ವತ್ತಿನ ಪ್ರತೀಕವಾಗಿದ್ದಾರೆ.</p>
+      <p>ಜೀವನದುದ್ದಕ್ಕೂ ಅಸ್ಪೃಶ್ಯತೆ, ಅಸಮಾನತೆ ಹಾಗೂ ಶೋಷಣೆಯ ವಿರುದ್ಧ ಹೋರಾಡಿದ ಅವರು, ತುಳಿದಿಲ್ತ, ಶೋಷಿತ ಮತ್ತು ಹಿಂದುಳಿದ ವರ್ಗಗಳ ಧ್ವನಿಯಾದರು. ಸಮಾಜದಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಸಮಾನತೆ, ಸ್ವಾತಂತ್ರ್ಯ ಮತ್ತು ಭ್ರಾತೃತ್ವ ದೊರೆಯಬೇಕು ಎಂಬುದು ಅವರ ಅಂತಿಮ ಗುರಿಯಾಗಿತ್ತು.</p>
+      <p>ಶಿಕ್ಷಕರಾದ ನಾವು ಬಾಬಾಸಾಹೇಬರ ಜೀವನ ಸಂದೇಶಗಳನ್ನು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ತಿಳಿಸಿ, ಅವರಂತೆ ಧೈರ್ಯದಿಂದ ಬದುಕಲು ಪ್ರೇರೇಪಿಸಬೇಕು.</p>
+    </div>
+    <div class="speech-close">ಜೈ ಭೀಮ್, ಜೈ ಸಂವಿಧಾನ!</div>
+  </div>
+
+  <div class="speech-card">
+    <div class="speech-number">ಭಾಷಣ 2</div>
+    <div class="speech-title">ಭಾರತೀಯ ಸಂವಿಧಾನದ ನಿರ್ಮಾಣ ಮತ್ತು ಬಾಬಾಸಾಹೇಬರ ಪಾತ್ರ</div>
+    <div class="speech-body">
+      <p>ವೇದಿಕೆಯಲ್ಲಿರುವ ಗಣ್ಯರೆ, ಹಿರಿಯ ಗುರುಗಳೇ ಮತ್ತು ನನ್ನ ಮುದ್ದು ವಿದ್ಯಾರ್ಥಿಗಳೇ, ನಿಮ್ಮೆಲ್ಲರಿಗೂ ಅಂಬೇಡ್ಕರ್ ಜಯಂತಿಯ ಶುಭಾಶಯಗಳು.</p>
+      <p>ಸ್ವಾತಂತ್ರ್ಯಾನಂತರ ಭಾರತದಂತಹ ವಿಶಾಲ ಮತ್ತು ವೈವಿಧ್ಯಮಯ ದೇಶವನ್ನು ಒಗ್ಗೂಡಿಸಲು ಒಂದು ಬಲವಾದ ಸಂವಿಧಾನದ ಅಗತ್ಯವಿತ್ತು. ಸಂವಿಧಾನ ರಚನಾ ಸಭೆಯ ಕರಡು ಸಮಿತಿಯ ಅಧ್ಯಕ್ಷರಾಗಿ ಜವಾಬ್ದಾರಿ ವಹಿಸಿಕೊಂಡ ಡಾ. ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಅವರು ವಿಶ್ವದಲ್ಲೇ ಅತ್ಯಂತ ಶ್ರೇಷ್ಠವಾದ ಲಿಖಿತ ಸಂವಿಧಾನವನ್ನು ದೇಶಕ್ಕೆ ನೀಡಿದರು.</p>
+      <p>ಸಂವಿಧಾನವು ನಮಗೆ ಮೂಲಭೂತ ಹಕ್ಕುಗಳನ್ನು ಮತ್ತು ಕರ್ತವ್ಯಗಳನ್ನು ನೀಡುವುದರ ಜೊತೆಗೆ, ಜಾತಿ, ಧರ್ಮ, ಲಿಂಗ ಭೇದವಿಲ್ಲದೆ ಪ್ರತಿಯೊಬ್ಬ ಭಾರತೀಯನಿಗೂ ಕಾನೂನಿನ ಮುಂದೆ ಸಮಾನತೆಯನ್ನು ಕಲ್ಪಿಸಿದೆ. ಈ ಮಹಾನ್ ಗ್ರಂಥದ ರಚನೆಯಲ್ಲಿ ಬಾಬಾಸಾಹೇಬರ ದೀರ್ಘದೃಷ್ಟಿ, ಕಾನೂನು ಪರಿಜ್ಞಾನ ಮತ್ತು ರಾಷ್ಟ್ರಪ್ರೇಮ ಸ್ಪಷ್ಟವಾಗಿ ಗೋಚರಿಸುತ್ತದೆ.</p>
+      <p>ಮಕ್ಕಳೇ, ನಮ್ಮ ಸಂವಿಧಾನವೇ ನಮ್ಮ ದೇಶದ ಪವಿತ್ರ ಗ್ರಂಥ. ಅದನ್ನು ಗೌರವಿಸುವುದು ಮತ್ತು ಅದರ ಮೌಲ್ಯಗಳನ್ನು ಕಾಪಾಡುವುದು ನಮ್ಮ ಪ್ರತಿಯೊಬ್ಬರ ಪ್ರಥಮ ಕರ್ತವ್ಯ.</p>
+    </div>
+    <div class="speech-close">ಭಾರತೀಯ ಸಂವಿಧಾನಕ್ಕೆ ಜೈ!</div>
+  </div>
+
+  <div class="speech-card">
+    <div class="speech-number">ಭಾಷಣ 3</div>
+    <div class="speech-title">"ಶಿಕ್ಷಣವೇ ಮೊದಲ ಆಯುಧ" - ಅಂಬೇಡ್ಕರ್ ಶಿಕ್ಷಣ ದರ್ಶನ</div>
+    <div class="speech-body">
+      <p>ಗೌರವಾನ್ವಿತ ಅತಿಥಿಗಳೇ ಮತ್ತು ನನ್ನ ಪ್ರೀತಿಯ ಸಹೋದ್ಯೋಗಿಗಳೇ, ಎಲ್ಲರಿಗೂ ನಮಸ್ಕಾರ.</p>
+      <p>ಡಾ. ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಅವರು ನಮಗೆ ನೀಡಿದ ಅತ್ಯಮೂಲ್ಯ ಸಂದೇಶಗಳಲ್ಲಿ "ಶಿಕ್ಷಣವೇ ಮೊದಲ ಆಯುಧ" ಎಂಬುದು ಅತ್ಯಂತ ಪ್ರಮುಖವಾದುದು. "ಶಿಕ್ಷಣವೆಂದರೆ ಹುಲಿಹಾಲು ಇದ್ದಂತೆ, ಅದನ್ನು ಕುಡಿದವನು ಘರ್ಜಿಸುತ್ತಾನೆ" ಎಂದು ಅವರು ಹೇಳುತ್ತಿದ್ದರು. ಅಂದರೆ ಜ್ಞಾನವಿದ್ದವನು ಯಾವ ಪರಿಸ್ಥಿತಿಯಲ್ಲೂ ಜಯಗಳಿಸಬಲ್ಲನು ಎಂಬುದು ಅವರ ಗಟ್ಟಿಯಾದ ನಂಬಿಕೆಯಾಗಿತ್ತು.</p>
+      <p>ತಮ್ಮ ಅಷ್ಟೊಂದು ಬಿಡುವಿಲ್ಲದ ಕೆಲಸಗಳ ನಡುವೆಯೂ ಸತತ ಅಧ್ಯಯನವನ್ನು ಮುಂದುವರಿಸಿದ ಅವರು ಜ್ಞಾನದ ಮಹಾಸಾಗರವಾಗಿ ರೂಪುಗೊಂಡರು. ವಿದ್ಯಾರ್ಥಿಗಳಾದ ನಿಮಗೆ ಶಿಕ್ಷಣ ಪಡೆಯಲು ಇಂದು ಬೇಕಾದಷ್ಟು ಅವಕಾಶಗಳಿವೆ. ಆ ಅವಕಾಶಗಳನ್ನು ಸರಿಯಾಗಿ ಬಳಸಿಕೊಂಡು ಉತ್ತಮ ವಿದ್ಯಾವಂತರಾಗಿ ರೂಪುಗೊಳ್ಳಬೇಕು.</p>
+      <p>ಶಿಕ್ಷಕರಾದ ನಾವು ಪ್ರತಿಯೊಬ್ಬ ಮಗುವಿಗೂ ಗುಣಮಟ್ಟದ ಶಿಕ್ಷಣ ಸಿಗುವಂತೆ ನೋಡಿಕೊಳ್ಳುವುದೇ ನಾವು ಬಾಬಾಸಾಹೇಬರಿಗೆ ಸಲ್ಲಿಸುವ ನಿಜವಾದ ನಮನ.</p>
+    </div>
+    <div class="speech-close">ಶಿಕ್ಷಣವೇ ಪ್ರಗತಿಯ ಮೂಲ!</div>
+  </div>
+
+  <div class="speech-card">
+    <div class="speech-number">ಭಾಷಣ 4</div>
+    <div class="speech-title">ಮಹಿಳಾ ಸಬಲೀಕರಣ ಮತ್ತು ಸಮಾನತೆಯ ಹಕ್ಕುಗಳು</div>
+    <div class="speech-body">
+      <p>ಸಭೆಯಲ್ಲಿರುವ ಹಿರಿಯರೆ ಹಾಗೂ ನನ್ನ ಮುದ್ದು ಮಕ್ಕಳೇ, ಇಂದಿನ ಈ ವಿಶೇಷ ದಿನದ ಶುಭಾಶಯಗಳು.</p>
+      <p>ಡಾ. ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಅವರು ಕೇವಲ ದಲಿತರ ನಾಯಕರಷ್ಟೇ ಅಲ್ಲ, ಅವರು ಭಾರತೀಯ ಮಹಿಳಾ ಕುಲದ ನಿಜವಾದ ಉದ್ಧಾರಕರು. ಪ್ರಾಚೀನ ಕಾಲದಿಂದಲೂ ಹಕ್ಕುಗಳಿಂದ ವಂಚಿತರಾಗಿದ್ದ ಮಹಿಳೆಯರಿಗೆ ಸಮಾನ ಹಕ್ಕುಗಳನ್ನು ಒದಗಿಸಲು ಅವರು ಹಗಲಿರುಳು ಶ್ರಮಿಸಿದರು. ಹಿಂದೂ ಕೋಡ್ ಬಿಲ್ ಮೂಲಕ ಮಹಿಳೆಯರಿಗೆ ಆಸ್ತಿಯಲ್ಲಿ ಸಮಾನ ಹಕ್ಕು, ವಿಚ್ಛೇದನ ಹಕ್ಕು ಹಾಗೂ ಶಿಕ್ಷಣದ ಅಧಿಕಾರವನ್ನು ತರಲು ಅವರು ನಡೆಸಿದ ಹೋರಾಟ ಐತಿಹಾಸಿಕ.</p>
+      <p>"ಒಂದು ಸಮಾಜದ ಪ್ರಗತಿಯನ್ನು ಅಳೆಯಬೇಕಾದರೆ ಆ ಸಮಾಜದ ಮಹಿಳೆಯರು ಸಾಧಿಸಿರುವ ಪ್ರಗತಿಯನ್ನು ನೋಡಿ" ಎಂದು ಅವರು ನುಡಿದಿದ್ದರು. ಇಂದು ನಮ್ಮ ಹೆಣ್ಣುಮಕ್ಕಳು ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಉನ್ನತ ಹುದ್ದೆಗಳನ್ನು ಅಲಂಕರಿಸುತ್ತಿರುವುದರ ಹಿಂದೆ ಬಾಬಾಸಾಹೇಬರ ದೂರದೃಷ್ಟಿಯ ಚಿಂತನೆಗಳಿವೆ.</p>
+      <p>ಮಕ್ಕಳೇ, ಲಿಂಗ ತಾರತಮ್ಯವಿಲ್ಲದೆ ಎಲ್ಲರನ್ನೂ ಗೌರವಿಸುವ ಸಮಾಜವನ್ನು ನಾವೆಲ್ಲರೂ ನಿರ್ಮಿಸೋಣ.</p>
+    </div>
+    <div class="speech-close">ಮಹಿಳಾ ಸಬಲೀಕರಣವೇ ದೇಶದ ಸಬಲೀಕರಣ!</div>
+  </div>
+
+  <div class="speech-card" style="page-break-after:auto;">
+    <div class="speech-number">ಭಾಷಣ 5</div>
+    <div class="speech-title">ಬಾಬಾಸಾಹೇಬರ ವಿಚಾರಗಳು ಮತ್ತು ಇಂದಿನ ಪ್ರಸ್ತುತತೆ</div>
+    <div class="speech-body">
+      <p>ವೇದಿಕೆಯಲ್ಲಿರುವ ಗಣ್ಯರೇ ಮತ್ತು ನನ್ನೆಲ್ಲಾ ಆತ್ಮೀಯ ವಿದ್ಯಾರ್ಥಿ ಮಿತ್ರರೇ, ಎಲ್ಲರಿಗೂ ಅಂಬೇಡ್ಕರ್ ಜಯಂತಿಯ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು.</p>
+      <p>ಇಂದು ನಾವು ಜಾತೀಯತೆ, ಅಸಮಾನತೆ ಹಾಗೂ ಇಕ್ಕಟ್ಟುಗಳಿಂದ ಮುಕ್ತವಾದ ಆಧುನಿಕ ಸಮಾಜದಲ್ಲಿ ಬದುಕುತ್ತಿದ್ದೇವೆ ಎಂದರೆ ಅದಕ್ಕೆ ಡಾ. ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಅವರ ತ್ಯಾಗ ಮತ್ತು ಹೋರಾಟವೇ ಮುಖ್ಯ ಕಾರಣ. ಅವರ ಚಿಂತನೆಗಳು ಮತ್ತು ಆದರ್ಶಗಳು ಎಂದೆಂದಿಗೂ ಪ್ರಸ್ತುತವಾಗಿವೆ. "ಶಿಕ್ಷಿಸು, ಸಂಘಟಿಸು, ಹೋರಾಡು" ಎಂಬ ಅವರ ಮಂತ್ರವು ನಮ್ಮ ಜೀವನದ ಪ್ರತಿಯೊಂದು ಹಂತಕ್ಕೂ ಅನ್ವಯಿಸುತ್ತದೆ.</p>
+      <p>ವಿದ್ಯಾರ್ಥಿಗಳಾದ ನೀವು ದೇಶದ ಜವಾಬ್ದಾರಿಯುತ ಪ್ರಜೆಗಳಾಗಿ ರೂಪುಗೊಳ್ಳಬೇಕು. ಭೇದಭಾವಗಳನ್ನು ಮರೆತು, ದೇಶದ ಐಕ್ಯತೆ ಮತ್ತು ಅಖಂಡತೆಯನ್ನು ಕಾಪಾಡಲು ಶ್ರಮಿಸಬೇಕು. ಬಾಬಾಸಾಹೇಬರ ಕನಸಿನ ಸಮಾನತೆಯ ಭಾರತವನ್ನು ನಿರ್ಮಿಸುವ ಪ್ರತಿಜ್ಞೆಯನ್ನು ಇಂದಿನ ಈ ದಿನದಂದು ಮಾಡೋಣ.</p>
+      <p>ಮತ್ತೊಮ್ಮೆ ನಿಮ್ಮೆಲ್ಲರಿಗೂ ಅಂಬೇಡ್ಕರ್ ಜಯಂತಿಯ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು.</p>
+    </div>
+    <div class="speech-close">ಡಾ. ಬಿ.ಆರ್. ಅಂಬೇಡ್ಕರ್ ಅಮರರಾಗಲಿ!</div>
+  </div>
+
+  <div class="footer-note">ಪ್ರತಿ ಭಾಷಣವೂ ಪ್ರಿಂಟ್ ಮಾಡಿದಾಗ ಪ್ರತ್ಯೇಕ ಪುಟದಲ್ಲಿ ಮೂಡುತ್ತದೆ</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <!-- ಇದು ಮೊಬೈಲ್‌ನಲ್ಲಿಯೂ ಡೆಸ್ಕ್‌ಟಾಪ್ ವ್ಯೂ ಬರುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ -->
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+    <title>ನಿಮ್ಮ ಪೇಜ್ ಶೀರ್ಷಿಕೆ</title>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+@media print{
+  .no-print{
+    display:none !important;
+  }
+}
+</style>
+
+<div class="no-print" style="text-align:center;margin:15px 0;">
+  <a href="https://bilingualmediumschools.blogspot.com/2026/04/home-page.html"
+     target="_blank"
+     style="display:inline-block;
+            background:#1565c0;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 18px;
+            border-radius:8px;
+            font-weight:bold;
+            font-size:16px;">
+<br> ರಚನೆ: ಮನೋಹರ್ ಆರ್‌ ಕೆ.ಜಿ.ಎಫ್<br>
+    🌐 School Resource Centre – Click Here to Visit
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
